@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+}
+
+
+header {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: .5rem;
+  margin: .5rem 0;
+}
+
+footer{
+  font-size: .75rem;
+  width: calc(95%-5%);
+  height: 2rem;
+  margin: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* .container {
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+  grid-template-columns:100%;
+  min-height:80vh;
+  min-height:100svh;
+} */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  min-width: 320px;
+  margin: auto;
+  height: 95vh;
+  width: 60vw;
+} */
+
+.container{
+max-width: 600px;
+min-width: 320px;
+height: 100vh;
+overflow: hidden;
+border: 1px solid black;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+form {
+  text-align: center;
+  font-size: .65rem;
+}
+
+fieldset {
+  position: relative;
+}
+
+.info-button{
+position: absolute;
+right: 1rem;
+bottom: .65rem;
+background-color: lightblue;
+height: .85rem;
+width: .85rem;
+border-radius: 50%;
+font-weight: bold;
+box-shadow: -3px 2.5px 4px -3px rgba(0,0,0,0.75);
+}
+
+.info-button:active{
+  transform: translateY(4px);
+
+}
+
+
+.foodInfo-component-container{
+  margin-top: auto;
+}
+
+
+.food-container{
+margin: auto;
+height: 35vh;
+/* width: 92vw; */
+border: .1rem solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightgray;
+}
+
+/* .food-item{
+
+} */
+
+
+.FoodStats-text-container{
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+}
+
+.FoodStats-text{
+border: .1rem solid black;
+padding: 0 1rem;
+}
+
+.macros-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.macros-container > h3 {
+  margin: 0 .3rem;
+}
+
+.info-modal-container{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  opacity: 0.9;
+  /* z-index: 100; */
+  display: flex;
+  z-index: 100;
+}
+
+.modal-content{
+  width: 85%;
+  height: 45%;
+  padding: .5rem;
+  background-color: white;
+  margin: 5rem auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: .75rem;
+}
+
+.modal-button{
+  width: 2rem;
+  align-self: end;
+  margin: 1rem;
+}
+
+.hidden{
+  display: none;
+}

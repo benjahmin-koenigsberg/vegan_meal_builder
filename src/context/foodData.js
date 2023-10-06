@@ -1,0 +1,43 @@
+export const foodData = [
+  {
+    name: "spinach",
+    type: 'green',
+    calories: 21,
+    carbs: 3.3,
+    protein: 2.6,
+    fat: 0.35,
+  },
+  {
+    name: "romaine",
+    type: 'green',
+    calories: 21,
+    carbs: 3.3,
+    protein: 2.6,
+    fat: 0.35,
+  },
+  {
+    name: "black",
+    type: 'bean',
+    calories: 244.5,
+    carbs: 44.8,
+    protein: 15.4,
+    fat: 1.1,
+  },
+  {
+    name: "beet",
+    type: 'root',
+    checked: false,
+    calories: 18,
+    carbs: 3.9,
+    protein: .6,
+    fat: 1.1,
+  },
+  {
+    name: "mixed baby greens",
+    type: 'green',
+    calories: 18,
+    carbs: 3.5,
+    protein: 1.6,
+    fat: .3,
+  },
+];

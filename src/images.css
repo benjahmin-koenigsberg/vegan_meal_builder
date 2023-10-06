@@ -1,0 +1,52 @@
+.food {
+height: 20rem;
+width: 20rem;
+background-repeat: no-repeat;
+background-size: 110%;
+background-position: center center;
+position: absolute;
+margin: auto;
+}
+
+
+.bowl {
+background-image: url('images/bowl.png');
+z-index: 1;
+background-size: 120%;
+
+}
+
+.plate{
+  background-image: url('images/plate.png');
+}
+
+.spinach{
+  background-image: url('images/spinach.png');
+  z-index: 2;
+}
+
+.black{
+  background-image: url('images/black.png');
+  z-index: 3;
+  background-size: 120%;
+
+}
+
+.beet{
+background-image: url('images/beet.png');
+z-index: 4;
+}
+
+.quinoa {
+  background-image: url('images/quinoa.png');
+  z-index: 5;
+}
+
+.avacado{
+  background-image: url('images/avacado.png');
+  z-index: 6;
+}
+.mustard{
+  background-image: url('images/mustard.png');
+  z-index: 7;
+}
